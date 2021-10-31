@@ -124,13 +124,7 @@ print(train_x.shape, test_x.shape, train_y.shape, test_y.shape)
 # In[ ]:
 
 
-svm = LogisticRegression(
-    penalty='l2',
-    n_jobs=8,
-    max_iter=100,
-    multi_class='ovr',
-    random_state=random_seed
-)
+
 
 
 # ### training
